@@ -190,7 +190,7 @@ body {
 .mainFooterBack input[type=submit] {
   background-color: #1e1e1e;
   border: none;
-  color: #cdb578;
+  color: #1e1e1e;
   font-size: 18px;
   font-weight: 900;
   width: 100%;
@@ -205,4 +205,12 @@ body {
   color: white;
   font-size: 14px;
   font-weight: 200;
+}
+.mainFooterBack .svg {
+  position: relative;
+}
+.mainFooterBack .svg svg {
+  position: absolute;
+  top: 11px;
+  left: 21%;
 }/*# sourceMappingURL=style-rtl.css.map */

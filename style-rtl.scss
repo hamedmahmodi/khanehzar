@@ -60,7 +60,7 @@ body{
         }
         .classfooterColumn4{
             width: 35%;
-            
+            svg{}
             @include md {
                 width: 50%;
             }
@@ -132,7 +132,7 @@ body{
     input[type="submit"] {
         background-color:#1e1e1e ;
         border: none;
-        color: #cdb578;
+        color: #1e1e1e;
         font-size: 18px;
         font-weight: 900;
         width: 100%;
@@ -145,5 +145,12 @@ body{
         }
     }
     
-    
+    .svg{
+        position: relative;
+        svg{
+            position: absolute;
+            top: 11px;
+            left: 21%;
+        }
+    }
 }
