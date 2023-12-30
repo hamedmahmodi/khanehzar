@@ -150,13 +150,18 @@ body {
   max-width: 1280px;
   margin: auto;
 }
-.mainFooterBack .NewslettersTell p {
+.mainFooterBack .NewslettersTell {
   border: 1px solid white;
   border-radius: 10px;
   max-width: 80%;
   color: white;
   display: flex;
   justify-content: space-between;
+  max-height: 40px;
+  margin: 15px 0;
+}
+.mainFooterBack .NewslettersTell p {
+  margin: 0;
 }
 .mainFooterBack input[type=tel] {
   background-color: #1e1e1e;
@@ -164,16 +169,23 @@ body {
   padding: 10px 7px;
   border: none;
   margin-right: 10px;
+  width: 100%;
+  color: white;
 }
 .mainFooterBack input[type=tel]::-moz-placeholder {
   color: white;
   font-size: 14px;
   font-weight: 200;
+  font-family: "yekanbakhweb" !important;
 }
 .mainFooterBack input[type=tel]::placeholder {
   color: white;
   font-size: 14px;
   font-weight: 200;
+  font-family: "yekanbakhweb" !important;
+}
+.mainFooterBack input:focus {
+  outline: none;
 }
 .mainFooterBack input[type=submit] {
   background-color: #1e1e1e;
@@ -181,6 +193,8 @@ body {
   color: #cdb578;
   font-size: 18px;
   font-weight: 900;
+  width: 100%;
+  margin-top: 6px;
 }
 .mainFooterBack input[type=submit]::-moz-placeholder {
   color: white;
