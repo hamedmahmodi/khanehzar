@@ -3,7 +3,7 @@ body{
     font-family: 'yekanbakhweb';
 }
 .mainFooterBack{
-    background-color: black;
+    background-color: #1e1e1e;
     padding: 50px 20px;
     .mainFooter{
         display: flex;
@@ -13,7 +13,7 @@ body{
         color: white;
         h3{
         color: #cdb578;
-        font-size: 28px;
+        font-size: 20px;
         }
         path,circle{
          fill: #cdb578;
@@ -68,16 +68,18 @@ body{
                 width: 100%;
             }
         }
-        a{
+        a,p{
             text-decoration: none;
             color: inherit;
+            font-size: 16px;
+            font-weight: 300;
         }
         li{
             list-style: none;
             margin: 5px 0;
             position: relative;
             padding-right: 12px;
-            ::before {
+            &::before {
                 content: "";
                 position: absolute;
                 width: 6px;
@@ -96,7 +98,42 @@ body{
         max-width: 1280px;
         margin: auto;
     }
-    
+    .NewslettersTell p{
+        border: 1px solid white;
+        border-radius: 10px;
+        max-width: 80%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    input[type="tel"] {
+        background-color:#1e1e1e ;
+        direction: rtl;
+        padding: 10px 7px;
+        border: none;
+        margin-right: 10px;
+        // width: 80%;
+        &::placeholder{
+            color: white;
+            font-size: 14px;
+            font-weight: 200;
+            // padding: 10px;
+        }
+    }
+    input[type="submit"] {
+        background-color:#1e1e1e ;
+        border: none;
+        color: #cdb578;
+        font-size: 18px;
+        font-weight: 900;
+        // width: 20%;
+        &::placeholder{
+            color: white;
+            font-size: 14px;
+            font-weight: 200;
+            
+        }
+    }
     
     
 }

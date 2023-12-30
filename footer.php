@@ -67,6 +67,12 @@
 				</div>
 				<div class="classfooterColumn4 footerColumns">
 					<h3>برای ثبت مشاوره همین حالا عضو شوید</h3>
+					<?php echo do_shortcode('[contact-form-7 id="0bdd6e0" title="فرم تماس 1"]') ?>
+					<div>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.265 2.853a.75.75 0 0 1 .882-.588l1.05.21a2.75 2.75 0 0 1 2.197 2.422l.085.853h13.575a3.05 3.05 0 0 1 2.96 3.79l-1.124 4.49a4.25 4.25 0 0 1-4.123 3.22H7.774a2.75 2.75 0 0 1-2.73-2.422l-.99-8.246-.153-1.535a1.25 1.25 0 0 0-.999-1.102l-1.05-.21a.75.75 0 0 1-.587-.882ZM9 12.75a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5H9Z" fill="#3F3F3F"></path><circle cx="8.5" cy="20" r="1.5" fill="#3F3F3F"></circle><circle cx="17.5" cy="20" r="1.5" fill="#3F3F3F"></circle></svg>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.265 2.853a.75.75 0 0 1 .882-.588l1.05.21a2.75 2.75 0 0 1 2.197 2.422l.085.853h13.575a3.05 3.05 0 0 1 2.96 3.79l-1.124 4.49a4.25 4.25 0 0 1-4.123 3.22H7.774a2.75 2.75 0 0 1-2.73-2.422l-.99-8.246-.153-1.535a1.25 1.25 0 0 0-.999-1.102l-1.05-.21a.75.75 0 0 1-.587-.882ZM9 12.75a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5H9Z" fill="#3F3F3F"></path><circle cx="8.5" cy="20" r="1.5" fill="#3F3F3F"></circle><circle cx="17.5" cy="20" r="1.5" fill="#3F3F3F"></circle></svg>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.265 2.853a.75.75 0 0 1 .882-.588l1.05.21a2.75 2.75 0 0 1 2.197 2.422l.085.853h13.575a3.05 3.05 0 0 1 2.96 3.79l-1.124 4.49a4.25 4.25 0 0 1-4.123 3.22H7.774a2.75 2.75 0 0 1-2.73-2.422l-.99-8.246-.153-1.535a1.25 1.25 0 0 0-.999-1.102l-1.05-.21a.75.75 0 0 1-.587-.882ZM9 12.75a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5H9Z" fill="#3F3F3F"></path><circle cx="8.5" cy="20" r="1.5" fill="#3F3F3F"></circle><circle cx="17.5" cy="20" r="1.5" fill="#3F3F3F"></circle></svg>
+					</div>
 				</div>
 			</div>
 		</div>

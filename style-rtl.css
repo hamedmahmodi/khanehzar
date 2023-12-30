@@ -43,7 +43,7 @@ body {
 }
 
 .mainFooterBack {
-  background-color: black;
+  background-color: #1e1e1e;
   padding: 50px 20px;
 }
 .mainFooterBack .mainFooter {
@@ -55,7 +55,7 @@ body {
 }
 .mainFooterBack .mainFooter h3 {
   color: #cdb578;
-  font-size: 28px;
+  font-size: 20px;
 }
 .mainFooterBack .mainFooter path, .mainFooterBack .mainFooter circle {
   fill: #cdb578;
@@ -121,9 +121,11 @@ body {
     width: 100%;
   }
 }
-.mainFooterBack .mainFooter a {
+.mainFooterBack .mainFooter a, .mainFooterBack .mainFooter p {
   text-decoration: none;
   color: inherit;
+  font-size: 16px;
+  font-weight: 300;
 }
 .mainFooterBack .mainFooter li {
   list-style: none;
@@ -131,7 +133,7 @@ body {
   position: relative;
   padding-right: 12px;
 }
-.mainFooterBack .mainFooter li ::before {
+.mainFooterBack .mainFooter li::before {
   content: "";
   position: absolute;
   width: 6px;
@@ -147,4 +149,46 @@ body {
 .mainFooterBack .mainView {
   max-width: 1280px;
   margin: auto;
+}
+.mainFooterBack .NewslettersTell p {
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 80%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.mainFooterBack input[type=tel] {
+  background-color: #1e1e1e;
+  direction: rtl;
+  padding: 10px 7px;
+  border: none;
+  margin-right: 10px;
+}
+.mainFooterBack input[type=tel]::-moz-placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+.mainFooterBack input[type=tel]::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+.mainFooterBack input[type=submit] {
+  background-color: #1e1e1e;
+  border: none;
+  color: #cdb578;
+  font-size: 18px;
+  font-weight: 900;
+}
+.mainFooterBack input[type=submit]::-moz-placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+.mainFooterBack input[type=submit]::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
 }/*# sourceMappingURL=style-rtl.css.map */
