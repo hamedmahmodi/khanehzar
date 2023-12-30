@@ -1,4 +1,7 @@
 @import 'sass/breakpoints';
+body{
+    font-family: 'yekanbakhweb';
+}
 .mainFooterBack{
     background-color: black;
     padding: 50px 20px;
@@ -9,11 +12,11 @@
         flex-wrap: wrap;
         color: white;
         h3{
-        color: rgb(255, 205, 143);
+        color: #cdb578;
         font-size: 28px;
         }
         path,circle{
-         fill: rgb(255, 205, 143);
+         fill: #cdb578;
         }
         
         .row{
@@ -22,11 +25,11 @@
             align-items: center;
             p{
                 margin: 5px;
-                max-width: 80%;
+                max-width: 85%;
             }
         } 
         .classfooterColumn1{
-            width: 25%;
+            width: 30%;
             
             @include md {
                 width: 50%;
@@ -70,7 +73,23 @@
             color: inherit;
         }
         li{
+            list-style: none;
             margin: 5px 0;
+            position: relative;
+            padding-right: 12px;
+            ::before {
+                content: "";
+                position: absolute;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                background-color: #cdb578;
+                top: 0;
+                bottom: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+                right: 0;
+            }
         }
     }
     .mainView{

@@ -1,3 +1,47 @@
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-Thin.woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-Light.woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-SemiBold.woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-Bold.woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-ExtraBold.woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-Black.woff2");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "yekanbakhweb";
+  src: url("fonts/yekanbakh/YekanBakhFaNum-ExtraBlack.woff2");
+  font-weight: 910;
+}
+body {
+  font-family: "yekanbakhweb";
+}
+
 .mainFooterBack {
   background-color: black;
   padding: 50px 20px;
@@ -10,11 +54,11 @@
   color: white;
 }
 .mainFooterBack .mainFooter h3 {
-  color: rgb(255, 205, 143);
+  color: #cdb578;
   font-size: 28px;
 }
 .mainFooterBack .mainFooter path, .mainFooterBack .mainFooter circle {
-  fill: rgb(255, 205, 143);
+  fill: #cdb578;
 }
 .mainFooterBack .mainFooter .row {
   display: flex;
@@ -23,10 +67,10 @@
 }
 .mainFooterBack .mainFooter .row p {
   margin: 5px;
-  max-width: 80%;
+  max-width: 85%;
 }
 .mainFooterBack .mainFooter .classfooterColumn1 {
-  width: 25%;
+  width: 30%;
 }
 @media screen and (max-width: 992px) {
   .mainFooterBack .mainFooter .classfooterColumn1 {
@@ -82,7 +126,23 @@
   color: inherit;
 }
 .mainFooterBack .mainFooter li {
+  list-style: none;
   margin: 5px 0;
+  position: relative;
+  padding-right: 12px;
+}
+.mainFooterBack .mainFooter li ::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #cdb578;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 0;
 }
 .mainFooterBack .mainView {
   max-width: 1280px;
