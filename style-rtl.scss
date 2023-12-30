@@ -1,0 +1,83 @@
+@import 'sass/breakpoints';
+.mainFooterBack{
+    background-color: black;
+    padding: 50px 20px;
+    .mainFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        color: white;
+        h3{
+        color: rgb(255, 205, 143);
+        font-size: 28px;
+        }
+        path,circle{
+         fill: rgb(255, 205, 143);
+        }
+        
+        .row{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            p{
+                margin: 5px;
+                max-width: 80%;
+            }
+        } 
+        .classfooterColumn1{
+            width: 25%;
+            
+            @include md {
+                width: 50%;
+            }
+            @include xs {
+                width: 100%;
+            } 
+        }
+        .classfooterColumn2{
+            width: 15%;
+            
+            @include md {
+                width: 50%;
+            }
+            @include xs {
+                width: 100%;
+            }
+        }
+        .classfooterColumn3{
+            width: 15%;
+            
+            @include md {
+                width: 50%;
+            }
+            @include xs {
+                width: 100%;
+            }
+        }
+        .classfooterColumn4{
+            width: 35%;
+            
+            @include md {
+                width: 50%;
+            }
+            @include xs {
+                width: 100%;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        li{
+            margin: 5px 0;
+        }
+    }
+    .mainView{
+        max-width: 1280px;
+        margin: auto;
+    }
+    
+    
+    
+}
