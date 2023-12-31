@@ -26,7 +26,7 @@
 	<div class="mainHeaderBack">
 		<div class="mainHeader mainView">
 			<a href="#"class="logoSection">
-				لوگو
+			<svg height="40" fill="#cdb578" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 182"><circle cx="74.5" cy="21.5" r="21.5"/><circle cx="234.5" cy="21.5" r="21.5"/><circle cx="337.5" cy="21.5" r="21.5"/><path d="M0 53h43v99c0 16.6-13.4 30-30 30H0V53Zm51.6 0h43v99c0 16.6-13.4 30-30 30h-13V53Zm186.2 0h43v99c0 16.6-13.4 30-30 30h-13V53Zm51.6 0h43v129h-13c-16.6 0-30-13.4-30-30V53Zm-60.2 129v-43h-65c-9.9 0-18-8.1-18-18v-7c0-9.9 8.1-18 18-18h65V53h-65c-33.7 0-61 27.3-61 61v7c0 33.7 27.3 61 61 61h65ZM341 53v43h65c9.9 0 18 8.1 18 18v7c0 9.9-8.1 18-18 18h-65v43h65c33.7 0 61-27.3 61-61v-7c0-33.7-27.3-61-61-61h-65Z"/></svg>
 			</a>
 			<div class="menuSection">
 				<?php
