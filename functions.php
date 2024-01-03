@@ -141,10 +141,13 @@ function khane_zar_scripts() {
 	wp_enqueue_style( 'khane_zar-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'khane_zar-style', 'rtl', 'replace' );
 	wp_enqueue_style( 'swiper-style', get_template_directory_uri().'/swiper/swiper-bundle.min.css', array(), _S_VERSION );
+	wp_enqueue_style( 'additional-style', get_template_directory_uri().'/additional.css', array(), _S_VERSION );
+	wp_enqueue_script('jquery');
 
 	wp_enqueue_script( 'khane_zar-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/swiper/swiper-bundle.min.js', array(), _S_VERSION, true );
   	wp_enqueue_script( 'khane_zar-swiperSildes', get_template_directory_uri() . '/js/swiperSlides.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'khane_zar-home', get_template_directory_uri() . '/js/home.js', array(), _S_VERSION, true );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

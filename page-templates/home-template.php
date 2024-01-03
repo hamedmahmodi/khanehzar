@@ -20,7 +20,7 @@ get_header();
             </div>
             <div class="img">
             <img src="<?php echo get_template_directory_uri() ?>/img/plain-concrete-structure-city copy.png" alt="" width="100%">
-                <div class="row">
+                <!-- <div class="row">
                     <div>
                         <h3>30</h3>
                         <p>سال تجربه</p>
@@ -36,6 +36,24 @@ get_header();
                     <div>
                         <h3>+1410</h3>
                         <p>رضایت مشتری</p>
+                    </div>
+                </div> -->
+                <div class="counterNumbersInner" id="counterNumbers">
+                    <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+                        <div class="counterNumber"><span id="counter-1">45</span></div>
+                        <div class="counterTitle">سال تجربه</div>
+                    </div>
+                    <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+                        <div class="counterNumber"><span id="counter-2">420</span><span>+</span></div>
+                        <div class="counterTitle">پروژه ساختمانی</div>
+                    </div>
+                    <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+                        <div class="counterNumber"><span id="counter-3">235</span><span>+</span></div>
+                        <div class="counterTitle">نصب موفق VRF</div>
+                    </div>
+                    <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
+                        <div class="counterNumber"><span id="counter-4">1410</span><span>+</span></div>
+                        <div class="counterTitle">رضایت مشتری</div>
                     </div>
                 </div>
             </div>
