@@ -10,8 +10,8 @@ while ( have_posts() ) :
 
     // the_post_navigation(
     // 	array(
-    // 		'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'baghery' ) . '</span> <span class="nav-title">%title</span>',
-    // 		'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'baghery' ) . '</span> <span class="nav-title">%title</span>',
+    // 		'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'khanehZar ) . '</span> <span class="nav-title">%title</span>',
+    // 		'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'khanehZar ) . '</span> <span class="nav-title">%title</span>',
     // 	)
     // );
 
