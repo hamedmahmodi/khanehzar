@@ -11,15 +11,27 @@ get_header();
 
 <div class="homePageBack">
     <div class="homePage mainHome">
-        <div class="holdingZar">
-            <div class="title">
+        <div class="mainHomeIntroSectionParent">
+            <div class="mainHomeIntroInnerTitle">
                 <h2><span>هلدینگ خانه زر</span>تنها مجری تخصصی سیستم وی آر اف</h2>
                 <p>با بیش از 30 سال سابقه کاری در ساختمان سازی</p>
-                <a href="#" class="readMore">بیشتر بخوانید ></a>
-                <a href="#">پروژه های ما ></a>
+                <div class="holdingZarButtom">
+                        <div class="readMore">
+                            <a href="#">بیشتر بخوانید</a>
+                            <span>
+                                <svg fill="black" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.7 14.7" xml:space="preserve"><path d="M9.98 14.7 2.479 7.35 9.98 0l2.241 2.295L7.062 7.35l5.159 5.055z"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                            </span>
+                        </div>
+                        <div >
+                            <a href="#">پروژه های ما</a>
+                            <span>
+                                <svg fill="white" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.7 14.7" xml:space="preserve"><path d="M9.98 14.7 2.479 7.35 9.98 0l2.241 2.295L7.062 7.35l5.159 5.055z"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                            </span>
+                        </div>
+                </div>
             </div>
-            <div class="img">
-            <img src="<?php echo get_template_directory_uri() ?>/img/plain-concrete-structure-city copy.png" alt="" width="100%">
+            <div class=" mainHomeIntroInnerImg">
+                <img src="<?php echo get_template_directory_uri() ?>/img/plain-concrete-structure-city copy.png" alt="" width="100%" >
                 <div class="row">
                     <div>
                         <h3>30</h3>
@@ -43,7 +55,7 @@ get_header();
         <div>
         <div class="ourServices">
             <h2>خدمات ما</h2>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+            <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</span>
             <div class="swiper serviceSwiper">
                 <div class="cards swiper-wrapper">
                     <div class="card swiper-slide">
@@ -79,12 +91,12 @@ get_header();
                 <h4>خدمات هلدینگ خانه رز</h4>
                 <h2>وی آر اف, <span>فناوری پیشرفته</span> <br> برای داشتن خانه ای بهتر</h2>
                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان</p>
-                <a href="#">بیشتر بخوانید ></a>
+                <a href="#">بیشتر بخوانید <span><svg fill="white" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.7 14.7" xml:space="preserve"><path d="M9.98 14.7 2.479 7.35 9.98 0l2.241 2.295L7.062 7.35l5.159 5.055z"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg></span></a>
             </div>
         </div>
         <div class="ourProject">
             <h2>پروژه های ما</h2>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+            <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</span>
             <a href="#">موارد بیشتر ></a>
             <div class="swiper projectSwiper">
                 <div class="cards swiper-wrapper">
@@ -172,7 +184,7 @@ get_header();
         </div>
         <div class="request">
             <h2>پروژه های ما</h2>
-            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+            <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</span>
             <div class="main">
                 <div class="form">
                     <?php echo do_shortcode('[contact-form-7 id="554d9f0" title="درخواست"]') ?>
