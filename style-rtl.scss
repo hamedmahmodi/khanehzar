@@ -258,12 +258,18 @@ a{
                     border: 1px solid white;
                     padding: 8px 18px;
                     border-radius: 10px;
+                    span{
+                        margin-right: 7px;
+                        display: inline-block;
+                        transition: .3s;
+                        cursor: pointer;
+                    }
                     svg{
                         vertical-align: middle;
-                        transition: .3s;
                     }
-                    &:hover svg{
+                    &:hover span{
                         transform: translateX(-7px);
+                    }
                     }
                 }
                 
@@ -468,8 +474,7 @@ a{
             }
             
             
-        }
-
+        
     }
 }
 .aboutPageBack{
@@ -836,7 +841,7 @@ a{
         position: relative;
         svg{
             position: absolute;
-            top: 11px;
+            top: 12px;
             left: 23%;
         }
     }

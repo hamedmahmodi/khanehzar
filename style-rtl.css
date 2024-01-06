@@ -295,51 +295,56 @@ a {
   padding: 8px 18px;
   border-radius: 10px;
 }
+.homePageBack .mainHome .mainHomeVrfServices .mainHomeVrfServicesText a span {
+  margin-right: 7px;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
+}
 .homePageBack .mainHome .mainHomeVrfServices .mainHomeVrfServicesText a svg {
   vertical-align: middle;
-  transition: 0.3s;
 }
-.homePageBack .mainHome .mainHomeVrfServices .mainHomeVrfServicesText a:hover svg {
+.homePageBack .mainHome .mainHomeVrfServices .mainHomeVrfServicesText a:hover span {
   transform: translateX(-7px);
 }
-.homePageBack .mainHome .mainHomeOurProject {
+.homePageBack .mainHomeOurProject {
   padding: 75px 0;
   text-align: center;
 }
-.homePageBack .mainHome .mainHomeOurProject h2 {
+.homePageBack .mainHomeOurProject h2 {
   color: #cdb578;
   font-size: 25px;
   margin: 0;
   font-weight: 800;
 }
-.homePageBack .mainHome .mainHomeOurProject span {
+.homePageBack .mainHomeOurProject span {
   font-size: 13px;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 100;
 }
-.homePageBack .mainHome .mainHomeOurProject a {
+.homePageBack .mainHomeOurProject a {
   text-align: left;
   display: block;
 }
-.homePageBack .mainHome .mainHomeOurProject .swiper-pagination {
+.homePageBack .mainHomeOurProject .swiper-pagination {
   position: unset !important;
 }
-.homePageBack .mainHome .mainHomeOurProject .swiper-pagination span {
+.homePageBack .mainHomeOurProject .swiper-pagination span {
   background: white;
   opacity: 100%;
 }
-.homePageBack .mainHome .mainHomeOurProject .swiper-pagination .swiper-pagination-bullet-active {
+.homePageBack .mainHomeOurProject .swiper-pagination .swiper-pagination-bullet-active {
   background: #cdb578;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
   margin-top: 10px;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard {
   width: 23%;
   height: 400px;
   position: relative;
@@ -347,34 +352,34 @@ a {
   overflow: hidden;
   transition: 0.3s;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText h3 {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText h3 {
   font-size: 25px;
   font-weight: 500;
   cursor: pointer;
   margin: 0;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText span {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText span {
   position: absolute;
   cursor: pointer;
   top: 10px;
   right: 10px;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText span .svgTwo {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText span .svgTwo {
   opacity: 0%;
   visibility: hidden;
   transition: 0.3s;
   transform: translateX(45px);
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText span .svgOne {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText span .svgOne {
   opacity: 100%;
   transition: 0.3s;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText .homeInnerProjectCardGradient {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText .homeInnerProjectCardGradient {
   width: 100%;
   height: 70%;
   position: absolute;
@@ -386,74 +391,74 @@ a {
   justify-content: flex-end;
   transition: 0.3s !important;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText .homeInnerProjectCardGradient p {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard .homeInnerProjectCardText .homeInnerProjectCardGradient p {
   padding: 0 20px;
   cursor: pointer;
   font-size: 13px;
   font-weight: 300;
   padding-bottom: 40PX;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover .homeInnerProjectCardGradient {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover .homeInnerProjectCardGradient {
   top: 35% !important;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover {
   transform: translateY(-20px);
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover .svgOne {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover .svgOne {
   visibility: hidden;
   opacity: 0% !important;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover .svgTwo {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard:hover .svgTwo {
   visibility: visible !important;
   opacity: 100% !important;
 }
-.homePageBack .mainHome .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard img {
+.homePageBack .mainHomeOurProject .mainHomeOurProjectCards .mainHomeOurProjectCard img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.homePageBack .mainHome .mainHomeRequest {
+.homePageBack .mainHomeRequest {
   padding: 75px 0;
   text-align: center;
 }
-.homePageBack .mainHome .mainHomeRequest h2 {
+.homePageBack .mainHomeRequest h2 {
   color: #cdb578;
   font-size: 25px;
   margin: 0;
   font-weight: 800;
 }
-.homePageBack .mainHome .mainHomeRequest span {
+.homePageBack .mainHomeRequest span {
   font-size: 13px;
   text-align: center;
   margin-bottom: 50px;
   font-weight: 100;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .mainHomeRequestInnerForm {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .mainHomeRequestInnerForm {
   width: 40%;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest {
   text-align: right;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest h4 {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest h4 {
   font-weight: 400;
   margin: 0;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest p {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest p {
   margin: 10px 0 40px 0;
   width: 90%;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input:focus {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input:focus {
   outline: none;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=text] {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=text] {
   width: 100%;
   color: white;
   background: transparent;
@@ -461,19 +466,19 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   padding: 8px 0;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=text]::-moz-placeholder {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=text]::-moz-placeholder {
   color: white;
   font-size: 14px;
   font-weight: 200;
   font-family: "yekanbakhweb" !important;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=text]::placeholder {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=text]::placeholder {
   color: white;
   font-size: 14px;
   font-weight: 200;
   font-family: "yekanbakhweb" !important;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=email] {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=email] {
   width: 100%;
   color: white;
   background-color: #282828;
@@ -484,17 +489,17 @@ a {
   background: transparent;
   font-family: "yekanbakhweb" !important;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=email]::-moz-placeholder {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=email]::-moz-placeholder {
   color: white;
   font-size: 14px;
   font-weight: 200;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=email]::placeholder {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=email]::placeholder {
   color: white;
   font-size: 14px;
   font-weight: 200;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=submit] {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest input[type=submit] {
   font-family: "yekanbakhweb" !important;
   background-color: #cdb578;
   padding: 10px 15px;
@@ -502,7 +507,7 @@ a {
   font-weight: 600;
   border-radius: 10px;
 }
-.homePageBack .mainHome .mainHomeRequest .mainHomeRequestInnerText .formRequest div p {
+.homePageBack .mainHomeRequest .mainHomeRequestInnerText .formRequest div p {
   text-align: right;
 }
 
@@ -876,7 +881,7 @@ a {
 }
 .mainFooterBack .svg svg {
   position: absolute;
-  top: 11px;
+  top: 12px;
   left: 23%;
 }
 .mainFooterBack .bottomFormSvg svg {
