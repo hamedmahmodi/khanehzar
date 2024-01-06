@@ -32,24 +32,6 @@ get_header();
             </div>
             <div class=" mainHomeIntroInnerImg">
                 <img src="<?php echo get_template_directory_uri() ?>/img/plain-concrete-structure-city copy.png" alt="" width="100%" >
-                <div class="row">
-                    <div>
-                        <h3>30</h3>
-                        <p>سال تجربه</p>
-                    </div>
-                    <div>
-                        <h3>+420</h3>
-                        <p>پروژه ساختمانی</p>
-                    </div>
-                    <div>
-                        <h3>+235</h3>
-                        <p>نصب موفق</p>
-                    </div>
-                    <div>
-                        <h3>+1410</h3>
-                        <p>رضایت مشتری</p>
-                    </div>
-                </div> -->
                 <div class="counterNumbersInner" id="counterNumbers">
                     <div class="counterItem aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="true">
                         <div class="counterNumber"><span id="counter-1">45</span></div>
