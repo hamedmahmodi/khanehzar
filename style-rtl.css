@@ -181,7 +181,7 @@ a {
   width: 62%;
   position: relative;
 }
-.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .mainHomeIntroInnerImgTitle {
+.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .counterNumbersInner {
   border-radius: 0 10px 10px 0;
   display: flex;
   justify-content: space-around;
@@ -193,17 +193,17 @@ a {
           backdrop-filter: blur(20px);
   background-color: rgba(0, 0, 0, 0.5);
 }
-.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .mainHomeIntroInnerImgTitle div {
+.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .counterNumbersInner div {
   padding: 15px 0;
 }
-.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .mainHomeIntroInnerImgTitle h3 {
+.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .counterNumbersInner .counterNumber {
   text-align: center;
   font-size: 33px;
   font-weight: 900;
   margin: 0;
   color: #cdb578;
 }
-.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .mainHomeIntroInnerImgTitle p {
+.homePageBack .mainHome .mainHomeIntroSectionParent .mainHomeIntroInnerImg .counterNumbersInner .counterTitle {
   margin: 0;
 }
 .homePageBack .mainHome .mainHomeOurServices {
